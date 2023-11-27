@@ -1,32 +1,59 @@
 import 'package:quizapp/Model/quiz_question_model.dart';
 
-final questionList = [
+const questionList = [
   QuizQuestionModel(
-    question: 'what are the main building blocks of flutter UI',
-    answer: [
+    question: 'What are the main building blocks of Flutter UI?',
+    answers: [
       'Widgets',
       'Components',
       'Blocks',
-      'Function',
+      'Functions',
     ],
   ),
   QuizQuestionModel(
-    question: 'How are flutter UI built?',
-    answer: [
-      'By Combining widgets in code',
-      'By Combining widgets in a visual editor',
-      'By Defining widgets in config files',
-      ''
+    question: 'How is Flutter UI built?',
+    answers: [
+      'By combining widgets in code',
+      'By combining widgets in a visual editor',
+      'By defining widgets in config files',
+      'By using xcode for ios and Android Studio for Android',
     ],
   ),
   QuizQuestionModel(
-    question: 'what is the purpose of a stateful-widget',
-    answer: [
-      'update UI as data changes',
-      'update data as UI changes',
+    question: 'What is the purpose of a StatefulWidget?',
+    answers: [
+      'Update UI as data changes',
+      'Update data as UI changes',
       'Ignore data changes',
-      'render UI that does not depend on data',
+      'Render UI that does not depend on data',
     ],
   ),
-  QuizQuestionModel(question: '', answer: answer)
+  QuizQuestionModel(
+    question:
+        'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    answers: [
+      'StatefulWidget',
+      'StatefulWidget',
+      'Both are equally good',
+      'None of the above',
+    ],
+  ),
+  QuizQuestionModel(
+    question: 'What happens if you change data in a StatelessWidget?',
+    answers: [
+      'The UI is not updated',
+      'The UI is updated',
+      'The closest StatefulWidget is updated',
+      'Any nested StatefulWidgets are updated',
+    ],
+  ),
+  QuizQuestionModel(
+    question: 'How should you update data inside of StatefulWidgets?',
+    answers: [
+      'By calling setState()',
+      'By calling updateUI()',
+      'By calling updateData()',
+      'By calling updateState()',
+    ],
+  ),
 ];

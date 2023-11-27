@@ -1,6 +1,12 @@
 class QuizQuestionModel {
-  QuizQuestionModel({required this.question, required this.answer});
+  const QuizQuestionModel({required this.question, required this.answers});
 
   final String question;
-  final List<String> answer;
+  final List<String> answers;
+
+  List<String> getShuffledAnswer() {
+    final shuffledList = List.of(answers);
+    shuffledList.shuffle();
+    return shuffledList;
+  }
 }
