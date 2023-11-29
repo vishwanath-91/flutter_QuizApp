@@ -19,9 +19,7 @@ class _StartScreenState extends State<StartScreen> {
           'assets/images/quiz-logo.png',
           color: const Color.fromARGB(50, 255, 255, 255),
         ),
-        const SizedBox(
-          height: 50,
-        ),
+        const SizedBox(height: 50),
         const Text(
           "Learn Flutter the fun way!",
           style: TextStyle(
@@ -29,9 +27,7 @@ class _StartScreenState extends State<StartScreen> {
             fontSize: 25,
           ),
         ),
-        const SizedBox(
-          height: 50,
-        ),
+        const SizedBox(height: 50),
         OutlinedButton.icon(
           onPressed: widget.startQuiz,
           icon: const Icon(Icons.play_arrow),

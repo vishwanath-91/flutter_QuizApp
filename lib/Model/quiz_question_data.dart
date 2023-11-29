@@ -16,7 +16,7 @@ const questionList = [
       'By combining widgets in code',
       'By combining widgets in a visual editor',
       'By defining widgets in config files',
-      'By using xcode for ios and Android Studio for Android',
+      'By using xcode for iOS and Android Studio for Android',
     ],
   ),
   QuizQuestionModel(
@@ -33,7 +33,7 @@ const questionList = [
         'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
     answers: [
       'StatefulWidget',
-      'StatefulWidget',
+      'StatelessWidget',
       'Both are equally good',
       'None of the above',
     ],
